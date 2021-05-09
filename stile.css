@@ -3,8 +3,8 @@
     padding: 0px;
     font-family: 'Courier New', Courier, monospace;
 } */
-body{
-    
+
+body {
     margin: 0px auto;
     background-color: #5a5454;
     padding: 0px;
@@ -12,65 +12,84 @@ body{
     justify-content: center;
     align-items: center;
 }
-.tc{
+
+.tc {
     background-color: #212121;
     padding: 20px 5px;
     font-size: 20px;
     color: white;
     font-weight: 100;
 }
-.trangchu{
+
+.trangchu {
     background-color: red;
     border: 1px solid #74b9ff;
     color: white;
 }
-.trangchu{
+
+.trangchu {
     text-decoration: none;
-    border: 1px solid red   ;
+    border: 1px solid red;
     padding: 5px 10px;
     background-color: red;
     border-radius: 3px;
 }
-a{
+
+a {
     text-decoration: none;
     color: white;
     font-weight: 100;
 }
-b{
-    padding-left: 830px;
+
+b {
+    padding-left: 800px;
 }
-input{
-    padding: 9px ;
-    background-color:#5a5454;
+
+input {
+    padding: 9px;
+    background-color: #5a5454;
     color: white;
 }
-.body1{
+
+.body1 {
     background-color: #3d3d3d;
 }
-.slider{
+
+.slider {
     width: 1074px;
     height: auto;
     border-radius: 10;
     overflow: hidden;
+    text-align: center;
 }
-.slides{
+
+.slides {
     width: 500%;
     height: auto;
     display: flex;
+    padding-bottom: 20px;
 }
-.slides input{
+
+.slides input {
     display: none;
 }
-.slide{
+
+.slide {
     width: 350px;
     transition: 2s;
 }
-.slide img{
-    width: 320px;
-    height:202px;
+
+.slide:hover {
+    background: #576574;
+    color: white;
 }
 
-.navigation-manual{
+.slide img {
+    width: 340px;
+    height: 202px;
+}
+
+.navigation-manual {
     position: absolute;
     width: 800px;
     margin-top: 230px;
@@ -79,33 +98,35 @@ input{
     left: 25%;
 }
 
-
-.manual-btn{
+.manual-btn {
     border: 2px solid #3d3d3d;
-    padding:  5px;
+    padding: 5px;
     border-radius: 10px;
     cursor: pointer;
     transition: 1s;
 }
 
-.manual-btn:not(:last-child){
+.manual-btn:not(:last-child) {
     margin-right: 20px;
 }
 
-.manual-btn:hover{
-    background:  white;
+.manual-btn:hover {
+    background: white;
 }
-#radio1:checked ~ .first{
+
+#radio1:checked~.first {
     margin-left: 0;
 }
-#radio2:checked ~ .first{
+
+#radio2:checked~.first {
     margin-left: -12.5%;
 }
-#radio3:checked ~ .first{
+
+#radio3:checked~.first {
     margin-left: -19.5%;
 }
 
-.navigation-auto{
+.navigation-auto {
     position: absolute;
     display: flex;
     width: 800px;
@@ -114,59 +135,76 @@ input{
     left: 25%;
 }
 
-.navigation-auto div{
+.navigation-auto div {
     border: 2px solid white;
     padding: 5px;
     border-radius: 10px;
     transition: 1s;
 }
-.navigation-auto div:not(:last-child){
+
+.navigation-auto div:not(:last-child) {
     margin-right: 20px;
 }
 
-#radio1:checked ~ .navigation-auto .auto-btn1{
+#radio1:checked~.navigation-auto .auto-btn1 {
     background: white;
 }
-#radio2:checked ~ .navigation-auto .auto-btn2{
+
+#radio2:checked~.navigation-auto .auto-btn2 {
     background: white;
 }
-#radio3:checked ~ .navigation-auto .auto-btn3{
+
+#radio3:checked~.navigation-auto .auto-btn3 {
     background: white;
 }
-#radio4:checked ~ .navigation-auto .auto-btn4{
+
+#radio4:checked~.navigation-auto .auto-btn4 {
     background: white;
 }
 
 .number-ep-film {
-    position:relative;
+    position: relative;
     color: #ffffff !important;
     background: #383838;
     font-size: 13px;
     clear: both;
     padding: 2px 10px;
-    left: 4px;
+    left: 20px;
     top: 5px;
     white-space: nowrap;
     line-height: 1.42857143;
     display: inline-block;
     letter-spacing: 1px;
     border: 3px double #5a5a5a;
-  }
-  .totalbody{
-      background-color: #3e3e3e;
-      width: 70%;
-}
-.phim{
-    color: yellow;
-}
-.slide{
-    position: relative;
-}
-.number-ep-film{
-    position: absolute;
-}
-.name-film{
-    color: red;
-    left: 10%;
 }
 
+.totalbody {
+    background-color: #3e3e3e;
+    width: 71%;
+}
+
+.phim {
+    color: yellow;
+}
+
+.slide {
+    position: relative;
+}
+
+.number-ep-film {
+    position: absolute;
+}
+
+.name-film {
+    color: red;
+}
+
+.body2 img {
+    width: 190px;
+    height: 273px;
+}
+
+.body2 div {
+    display: flex;
+    width: 55%;
+}
