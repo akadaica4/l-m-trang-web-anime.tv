@@ -8,10 +8,19 @@ setInterval(function() {
 }, 3000);
 
 
-function trang1() {
-    document.getElementById("pagination1").style.display = "none";
+function menuDropdown(t) {
+    if (t.classList.contains("active")) {
+        t.classList.remove("active");
+    } else {
+        t.classList.add("active");
+    }
 }
 
-function trang2() {
-    document.getElementById("pagination2").style.visibility = "hidden";
-}
+
+// function trang1() {
+//     document.getElementById("pagination1").style.display = "none";
+// }
+
+// function trang2() {
+//     document.getElementById("pagination2").style.visibility = "hidden";
+// }

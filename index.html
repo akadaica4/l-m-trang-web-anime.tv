@@ -14,9 +14,70 @@
 <body>
     <div class="totalbody">
         <div class="body1">
-            <div class=" tc">
-                <a href="http://127.0.0.1:5500/index.html">ANIME<span class="trangchu">HAY</span></a>
-                <b>Danh Mục</b>
+            <div id="ah-cat">
+                <div class="ah-menu ah-clear-both">
+                    <ul class="nav">
+                        <li class="ah-text-logo ah-float-left">
+                            <a href="http://127.0.0.1:5500/index.html">ANIME<span class="trangchu">HAY</span></a>
+                        </li>
+                        <li class="ah-lsm ah-float-right active" onclick="menuDropdown(this)">
+                            <a class="non-routed" href="#">Danh mục</a>
+                            <i class="non-routed fa fa-align-justify"></i>
+                        </li>
+                        <ul class="ah-ulsm">
+                            <li class="ah-lsm ah-drop-ft" onclick="menuDropdown(this)">
+                                <a class="non-routed" href="#">Anime</a>
+                                <i class="fa fa-chevron-down ah-rtnav" aria-hidden="true"></i>
+                            </li>
+                            <ul class="ah-ulsm">
+                                <li><a href="https://animehay.tv/the-loai/phim-anime/hanh-dong" title="Hành động">Hành động</a></li>
+                                <li><a href="https://animehay.tv/the-loai/phim-anime/tinh-cam" title="Tình Cảm">Tình Cảm</a></li>
+                                <li><a href="https://animehay.tv/the-loai/phim-anime/lich-su" title="Lịch sử">Lịch sử</a></li>
+                                <li><a href="https://animehay.tv/the-loai/phim-anime/hai-huoc" title="Hài Hước">Hài Hước</a></li>
+                            </ul>
+                            <li class="ah-lsm ah-drop-ft" onclick="menuDropdown(this)">
+                                <a class="non-routed" href="#">CN Animation</a>
+                                <i class="fa fa-chevron-down ah-rtnav" aria-hidden="true"></i>
+                            </li>
+                            <ul class="ah-ulsm">
+                                <li><a href="https://animehay.tv/the-loai/hoat-hinh-trung-quoc/tien-hiep" title="Tiên Hiệp">Tiên Hiệp</a></li>
+                                <li><a href="https://animehay.tv/the-loai/hoat-hinh-trung-quoc/kiem-hiep" title="Kiếm Hiệp">Kiếm Hiệp</a></li>
+                                <li><a href="https://animehay.tv/the-loai/hoat-hinh-trung-quoc/xuyen-khong" title="Xuyên Không">Xuyên Không</a></li>
+                                <li><a href="https://animehay.tv/the-loai/hoat-hinh-trung-quoc/trung-sinh" title="Trùng Sinh">Trùng Sinh</a></li>
+                            </ul>
+                            <li class="ah-lsm ah-drop-ft" onclick="menuDropdown(this)">
+                                <a class="non-routed" href="#">Hoạt Hình</a>
+                                <i class="fa fa-chevron-down ah-rtnav" aria-hidden="true"></i>
+                            </li>
+                            <ul class="ah-ulsm">
+                                <li><a href="https://animehay.tv/the-loai/phim-hoat-hinh/my" title="Mỹ">Mỹ</a></li>
+                                <li><a href="https://animehay.tv/the-loai/phim-hoat-hinh/han-quoc" title="Hàn Quốc">Hàn Quốc</a></li>
+                                <li><a href="https://animehay.tv/the-loai/phim-hoat-hinh/malaysia" title="Malaysia">Malaysia</a></li>
+                                <li><a href="https://animehay.tv/the-loai/phim-hoat-hinh/anh" title="Anh">Anh</a></li>
+                                <li><a href="https://animehay.tv/the-loai/phim-hoat-hinh/phap" title="Pháp">Pháp</a></li>
+                                <li><a href="https://animehay.tv/the-loai/phim-hoat-hinh/dai-loan" title="Đài loan">Đài loan</a></li>
+                            </ul>
+                            <li class="ah-lsm ah-drop-ft" onclick="menuDropdown(this)">
+                                <a class="non-routed" href="#">Năm Phát Hành </a>
+                                <i class="fa fa-chevron-down ah-rtnav" aria-hidden="true"></i>
+                            </li>
+                            <ul class="ah-ulsm">
+                                <li><a href="/phim-phat-hanh/2021" title="Phim phát hành năm 2021">2021</a>
+                                </li>
+                                <li><a href="/phim-phat-hanh/2020" title="Phim phát hành ăm 2020">2020</a>
+                                </li>
+                                <li><a href="/phim-phat-hanh/2019" title="Phim phát hành năm 2019">2019</a>
+                                </li>
+                                <li><a href="/phim-phat-hanh/2019" title="Phim phát hành năm 2018">2018</a>
+                                </li>
+                            </ul>
+                            <li><a class="non-routed" href="#">Phim Bộ</a>
+                            </li>
+                            <li><a class="non-routed" href="#">Phim Lẻ</a>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
             </div>
             <div class="timkiem">
                 <input type="text" placeholder="Tìm Kiếm Phim">
@@ -30,14 +91,14 @@
                 <!-- <input type="radio" name="radio-btn" id="radio4" class="input"> -->
                 <div class="slide first">
                     <a href="https://animehay.tv/phim/dau-la-dai-luc-f2575.html">
-                        <img class="img" src="img cho module 1/dau-la-dai-luc-thumbnail.png" alt="">
+                        <img class="img" src="img cho module 1/dau-la-dai-luc-cover.png" alt="">
                         <span class="number-ep-film">Tập 154/??? </span>
                         <span class="name-film"><span>Đấu La Đại Lục</span></span>
                     </a>
                 </div>
                 <div class="slide">
                     <a href="https://animehay.tv/phim/boruto-naruto-next-generations-f1877.html">
-                        <img src="img cho module 1/boruto-naruto-next-generations-thumbnail.jpg" alt="">
+                        <img src="img cho module 1/boruto-naruto-next-generations-cover.jpg" alt="">
                         <span class="number-ep-film">Tập 7/24 </span>
                         <span class="name-film"><span>Boruto: Naruto Next Generations</span></span>
                     </a>
@@ -51,21 +112,21 @@
                 </div>
                 <div class="slide">
                     <a href="https://animehay.tv/phim/linh-khe-f1739.html">
-                        <img src="img cho module 1/linh-khe-thumbnail.jpg" alt="">
+                        <img src="img cho module 1/linh-khe-cover.png" alt="">
                         <span class="number-ep-film">Tập 20/20 </span>
                         <span class="name-film"><span>Linh Khế</span></span>
                     </a>
                 </div>
                 <div class="slide">
                     <a href="https://animehay.tv/phim/linh-kiem-ton-f2882.html">
-                        <img src="img cho module 1/linh-kiem-ton-thumbnail-1618197666.png" alt="">
+                        <img src="img cho module 1/linh-kiem-ton-cover-1617496268.jpg" alt="">
                         <span class="number-ep-film">Tập 172/200 </span>
                         <span class="name-film"><span>Linh Kiếm Tôn</span></span>
                     </a>
                 </div>
                 <div class="slide">
                     <a href="https://animehay.tv/phim/ma-dao-to-su-f2726.html">
-                        <img src="img cho module 1/ma-dao-to-su-thumbnail.jpg" alt="">
+                        <img src="img cho module 1/ma-dao-to-su-cover-1619968075.jpg" alt="">
                         <span class="number-ep-film">Tập 14/15 </span>
                         <p class="name-film" style="margin: 0;"><span>Ma Đạo Tổ Sư</span></p>
                     </a>
