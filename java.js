@@ -15,7 +15,7 @@ function menuDropdown(t) {
         t.classList.add("active");
     }
 }
-
+// document.getElementById("menu-bar").innerHTML = ``
 
 // function trang1() {
 //     document.getElementById("pagination1").style.display = "none";

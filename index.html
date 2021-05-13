@@ -20,11 +20,11 @@
                         <li class="ah-text-logo ah-float-left">
                             <a href="http://127.0.0.1:5500/index.html">ANIME<span class="trangchu">HAY</span></a>
                         </li>
-                        <li class="ah-lsm ah-float-right active" onclick="menuDropdown(this)">
+                        <li class="ah-lsm ah-float-right " onclick="menuDropdown(this)">
                             <a class="non-routed" href="#">Danh mục</a>
                             <i class="non-routed fa fa-align-justify"></i>
                         </li>
-                        <ul class="ah-ulsm">
+                        <ul class="ah-ulsm" id="menu-bar">
                             <li class="ah-lsm ah-drop-ft" onclick="menuDropdown(this)">
                                 <a class="non-routed" href="#">Anime</a>
                                 <i class="fa fa-chevron-down ah-rtnav" aria-hidden="true"></i>
@@ -302,8 +302,23 @@
         <!-- Phân trang -->
         <div class="body3">
             <div id="pagination">
-                <input type="button" value="1" onclick="trang1()">
-                <input type="button" value="2" onclick="trang2()">
+                <ul class="pagination">
+                    <li class="pagination-item">
+                        <a href="" class="pagination-item__link">1</a>
+                    </li>
+                    <li class="pagination-item">
+                        <a href="https://animehay.tv/phim-moi-cap-nhap?page=2" class="pagination-item__link">2</a>
+                    </li>
+                    <li class="pagination-item">
+                        <a href="https://animehay.tv/phim-moi-cap-nhap?page=3" class="pagination-item__link">3</a>
+                    </li>
+                    <li class="pagination-item">
+                        <a href="https://animehay.tv/phim-moi-cap-nhap?page=4" class="pagination-item__link">4</a>
+                    </li>
+                    <li class="pagination-item">
+                        <a href="https://animehay.tv/phim-moi-cap-nhap?page=5" class="pagination-item__link">5</a>
+                    </li>
+                </ul>
             </div>
         </div>
         <footer>

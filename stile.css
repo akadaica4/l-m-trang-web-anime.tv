@@ -178,6 +178,7 @@ input {
 .slide {
     width: 350px;
     transition: 2s;
+    border: 1px solid
 }
 
 .slide:hover {
@@ -259,11 +260,6 @@ input {
     background: white;
 }
 
-
-/* #radio4:checked~.navigation-auto .auto-btn4 {
-    background: white;
-} */
-
 .number-ep-film {
     position: relative;
     color: #ffffff !important;
@@ -314,8 +310,47 @@ input {
     left: 15px;
 }
 
-.body3 inputs {
+.body3 input {
     left: 100px;
+}
+
+
+/* chia trang */
+
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagination-item__link:hover {
+    background: red;
+}
+
+.pagination-item--active .pagination-item__link {
+    color: var(--white-color);
+    background-color: var(--primary-color);
+}
+
+.pagination-item__link {
+    position: relative;
+    display: block;
+    text-decoration: none;
+    font-size: 1, 6rem;
+    color: white;
+    min-width: 30px;
+    height: 25px;
+    background: #383838;
+    white-space: nowrap;
+    line-height: 1.42857143;
+    display: inline-block;
+    letter-spacing: 1px;
+    border: 3px double #5a5a5a;
+    text-align: center
+}
+
+.body3 div {
+    background: #212121 !important;
 }
 
 
@@ -327,7 +362,7 @@ input {
     margin-bottom: 10px;
     border-color: #4a4a4a;
     border-width: 0 0 1px 0;
-    color: #dacb46 !important;
+    color: #eee384 !important;
     font-size: 18px;
     line-height: 39px;
     font-family: "Pridi", serif;
@@ -345,7 +380,7 @@ input {
 }
 
 div#ah-footer {
-    border-top: 2px solid #009688;
+    border-top: 2px solid;
     background: #2b2b2b;
     color: #ccc !important;
 }
@@ -369,4 +404,8 @@ div#ah-footer {
 .ah-ft-contact ul li {
     line-height: 36px;
     border-bottom: 1px solid #313131;
+}
+
+ul {
+    list-style: none;
 }
